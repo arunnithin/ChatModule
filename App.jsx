@@ -1,9 +1,11 @@
 import React from 'react';
-import WardenChatScreen from './src/Screen/Screen';
+import AppLayout from './src/Navigation/Applayout';
+          
+
 
 const App = () => {
   return (
-    <WardenChatScreen/>
+      <AppLayout/>
   );
 };
 
